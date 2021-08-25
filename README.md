@@ -44,7 +44,7 @@
     cat interfaces
     rm -rf source
   ```
-##中文輸入
+## 中文輸入
 1.  開機後更新軟體
     ```sh
     sudo apt-get update
