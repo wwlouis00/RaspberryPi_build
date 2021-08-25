@@ -63,6 +63,11 @@
     ```sh
     sudo reboot
     ```
+## 開機自動執行程式
+在開機後直接執行Python或Shell Script檔案
+路徑為:    /etc/xdg/lxsession/LXDE-pi
+
+
 
 
 
