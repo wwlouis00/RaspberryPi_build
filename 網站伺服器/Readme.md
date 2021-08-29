@@ -60,5 +60,6 @@ broadcast 192.168.1.255
 - 於Advanced Options中選取SSH，並點選Enable:
 2. 個人電腦端下載與安裝Putty軟體
 3. 執行Putty，於Host Name(IP address)鍵入Raspberry PI的IP位址;接著按Open
-
+4. 第一次連線會有安全考量，點選Yes
+5. 將會開啟文字視窗，鍵入使用者名稱與密碼登入即可開始進行遠端控制
 
