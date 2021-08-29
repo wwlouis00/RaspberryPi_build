@@ -53,4 +53,11 @@ broadcast 192.168.1.255
 <pre><code>ping 192.168.1.81
 </code></pre>
 
+## Putty遠端控制
+1. 確認Raspberry PI的SSH已開啟，請先進行下列設定:
+<pre><code>sudo raspi-config
+</code></pre>
+- 於Advanced Options中選取SSH，並點選Enable:
+2. 
+
 
