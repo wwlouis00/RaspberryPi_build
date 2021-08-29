@@ -14,10 +14,21 @@ sudo reboot
 </code></pre>
 2. 初始設定為動態IP位址，在此設為靜態IP位址，以避免重新開機後需再查閱IP位址問題。
 3. 使用ipconfig取得目前的網路的IP Broadcast Net Mask等位址
-4. 使用下令指令取得Gateway網址
-<pre><code>
+4. 使用下令指令取得Gateway網址:
+<pre><code>ip route show
 </code></pre>
+5. 切換到目錄/etc/network，使用文字編輯器開啟interfaces(須系統管理者權限):
+<pre><code>cd /etc/network
+sudo nano interfaces
+</code></pre>
+- 初始設定為:
+<pre><code>auto lo
+iface lo inet loopback
 
+auto eth0
+allow-hotplug eht0
+iface eth0 inet manual
+</code></pre>
 
 
 
