@@ -69,4 +69,8 @@ broadcast 192.168.1.255
 sudo apt-get upgrade
 sudo reboot
 </code></pre>
-
+2. 安裝LAMP組合包:
+<pre><code>sudo apt-get install apache2
+sudo apt-get install php5
+sudo apt-get install mysql-client mysql-server
+</code></pre>
