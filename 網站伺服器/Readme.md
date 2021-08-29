@@ -49,5 +49,8 @@ broadcast 192.168.1.255
 7. 確認IP位址是否已固定:
 <pre><code>ifconfig
 </code></pre>
+8.使用個人電腦測試Raspberry PI的網路連線狀態:
+<pre><code>ping 192.168.1.81
+</code></pre>
 
 
