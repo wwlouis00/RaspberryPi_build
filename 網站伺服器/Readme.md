@@ -28,7 +28,9 @@ iface lo inet loopback
 auto eth0
 allow-hotplug eht0
 iface eth0 inet manual
+...
 </code></pre>
+- 請修改為固定IP位址並存檔
 
 
 
