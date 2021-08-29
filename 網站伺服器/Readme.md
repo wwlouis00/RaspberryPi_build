@@ -63,3 +63,10 @@ broadcast 192.168.1.255
 4. 第一次連線會有安全考量，點選Yes
 5. 將會開啟文字視窗，鍵入使用者名稱與密碼登入即可開始進行遠端控制
 
+## 伺服器
+1. 開機後更新軟體:
+<pre><code>sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+</code></pre>
+
