@@ -5,3 +5,7 @@
 
 - MySQL
 -- MySQL念成My Sequel，是開放原始碼的關聯式資料庫管理系統，由於效能高 成本高 可靠性高等優點，已成為目前最流行的資料庫系統
+<p>This is a normal paragraph:</p>
+
+<pre><code>This is a code block.
+</code></pre>
