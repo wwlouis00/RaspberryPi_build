@@ -31,6 +31,17 @@ iface eth0 inet manual
 ...
 </code></pre>
 - 請修改為固定IP位址並存檔
+<pre><code>auto lo
+iface lo inet loopback
 
+auto eth0
+allow-hotplug eht0
+iface eth0 inet static
+address 192.168.1.81
+gateway 192.168.1.254
+netmask 255.255.255.0
+broadcast 192.168.1.255
+...
+</code></pre>
 
 
