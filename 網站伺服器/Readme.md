@@ -14,3 +14,10 @@ sudo reboot
 </code></pre>
 2. 初始設定為動態IP位址，在此設為靜態IP位址，以避免重新開機後需再查閱IP位址問題。
 3. 使用ipconfig取得目前的網路的IP Broadcast Net Mask等位址
+4. 使用下令指令取得Gateway網址
+<pre><code>
+</code></pre>
+
+
+
+
