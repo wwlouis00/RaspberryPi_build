@@ -43,5 +43,11 @@ netmask 255.255.255.0
 broadcast 192.168.1.255
 ...
 </code></pre>
+6. 重新開機:
+<pre><code>sudo reboot
+</code></pre>
+7. 確認IP位址是否已固定:
+<pre><code>ifconfig
+</code></pre>
 
 
