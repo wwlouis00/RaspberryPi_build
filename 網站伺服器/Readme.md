@@ -58,6 +58,7 @@ broadcast 192.168.1.255
 <pre><code>sudo raspi-config
 </code></pre>
 - 於Advanced Options中選取SSH，並點選Enable:
-2. 
+2. 個人電腦端下載與安裝Putty軟體
+3. 執行Putty，於Host Name(IP address)鍵入Raspberry PI的IP位址;接著按Open
 
 
