@@ -8,9 +8,9 @@ cd /etc/xdg/lxsession/LXDE-pi
 ```
 2. vim編輯autostart，並用sudo模式開啟
 ```Bash
-sudo vim auto 
+sudo vim autostart 
 ``` 
 3. 將@lxpanel --profile LXDE-pi使用#註解掉
 ```Bash
-#@lxpanel --profile LXDE-pi
+# @lxpanel --profile LXDE-pi
 ```
