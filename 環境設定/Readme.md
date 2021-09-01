@@ -14,3 +14,7 @@ sudo vim autostart
 ```Bash
 # @lxpanel --profile LXDE-pi
 ```
+4. 樹梅派重新開機
+```Bash
+sudo reboot
+```
