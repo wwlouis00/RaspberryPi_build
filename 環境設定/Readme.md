@@ -26,3 +26,7 @@ cd /etc/lightdm
 ```Bash
 sudo vim lightdm.conf
 ```
+3. 在lightdm.conf裡面增加xserver-command = X -nocursor
+```Bash
+xserver-command = X -nocursor
+```
