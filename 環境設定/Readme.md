@@ -39,3 +39,9 @@ sudo ln -sf python3 python
 - ln修改符號連接
 - -s軟體連接
 - -f強制覆蓋現有連接
+
+2. 用python –version 查看現在python版本
+```Bash
+python -version
+```
+
