@@ -30,3 +30,9 @@ sudo vim lightdm.conf
 ```Bash
 xserver-command = X -nocursor
 ```
+## Python預設版本
+
+1. 進到/etc/lightdm
+```Bash
+sudo raspi-config
+```
