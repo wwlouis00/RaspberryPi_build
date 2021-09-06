@@ -68,7 +68,10 @@
 - 路徑為:    /etc/xdg/lxsession/LXDE-pi/autostart
 
 ## uname指令
-
+```sh
+   uname
+```
+印出系統的內核名稱：Linux
 
 
 
