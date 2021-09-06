@@ -32,7 +32,10 @@ xserver-command = X -nocursor
 ```
 ## Python預設版本
 
-1. 進到/etc/lightdm
+1. 使用終端機指令進行版本設置
 ```Bash
-sudo raspi-config
+sudo ln -sf python3 python
 ```
+- ln修改符號連接
+- -s軟體連接
+- -f強制覆蓋現有連接
