@@ -68,13 +68,19 @@
 - 路徑為:    /etc/xdg/lxsession/LXDE-pi/autostart
 
 ## uname指令
-- 印出系統的內核名稱
+- 印出系統的內核名稱 
 ```sh
-   uname
-   uname -a
-   uname -a
+   uname 印出系統的內核名稱
+   uname -a 印出系統的所有的資訊，會忽略未知的處理器與未知的硬件平台
+   uname -n 印出顯示於網路上的主機名稱
+   uname -r 印出內核的版本
+   uname -v 印出內核運行於哪個linux
+   uname -m 印出電腦類型
+   uname -p 印出處理器類型：x86_64
+   uname -i 印出硬件平台類型：x86_64
+   uname -o 印出操作系統名稱：GNU/Linux
+   uname -h 印出這個指令的幫助，與各個參數的功能
 ```
-印出系統的內核名稱：Linux
 
 
 
