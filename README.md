@@ -4,37 +4,37 @@
 
 - 開機後登入，並進入視窗環境
 1. 首先開啟LXTerminal，輸入下列指令進行系統初始設定
-- ```sh
+ ```sh
     sudo raspi-config
-  ```
+ ```
 - 選取擴充檔案系統(Expand Filesystem) 並Enter確認，擴充Micro SD卡可使用的容量
 - 變更使用者密碼(Change User Password)
-- ```sh
+```sh
     login:pi
     password:raspberry
-  ```
+ ```
 - 國際化設定(Internationalisation Options)
 - 改變區域(Change Locale)
 - 改變時區(Change Timezone)
 - 改變鍵盤配置(Change Keyboard Layout)，設定為English US鍵盤
 - 改變Wi-Fi國家(Change Wi-Fi Country)，設定為TW-Taiwan
 2. 重新開機即可完成系統設定
-- ```sh
+```sh
     sudo reboot
-  ```
+```
 3. 請自行點選介面的Menu選單，檢視Programming Office Internet Games Accesories等選項，並適用所提供的應用軟體。
 4. Raspberry Pi需安全關機，應避免直接拔掉電源線，請在視窗Menu中點選Shutdown或是使用下列指令
-- ```sh
+```sh
     sudo shutdown -h now
-  ```
+```
 5. 開機後更新軟體
-- ```sh
+```sh
     sudo apt-get update
     sudo apt-get upgrade
     sudo reboot
-  ```
+```
 6. 試練習下列指令，並觀察結果
-- ```sh
+```sh
     ls
     ls -l
     ls -al
@@ -43,7 +43,7 @@
     cd /etc/network
     cat interfaces
     rm -rf source
-  ```
+```
 ## 中文輸入
 1.  開機後更新軟體
     ```sh
