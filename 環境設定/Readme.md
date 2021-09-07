@@ -32,7 +32,11 @@ xserver-command = X -nocursor
 ```
 ## Python預設版本
 
-1. 使用終端機指令進行版本設置
+1. 進入”/usr/bin”目錄下，輸入ls -l | grep python顯示所有名字中包含python的檔案
+```Bash
+cd /usr/bin ; ls -l | grep python
+```
+2. 使用終端機指令進行版本設置
 ```Bash
 sudo ln -sf python3 python
 ```
@@ -40,7 +44,7 @@ sudo ln -sf python3 python
 - -s軟體連接
 - -f強制覆蓋現有連接
 
-2. 用python –version 查看現在python版本
+3. 用python –version 查看現在python版本
 ```Bash
 python -version
 ```
