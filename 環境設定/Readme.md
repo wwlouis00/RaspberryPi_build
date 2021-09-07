@@ -1,4 +1,12 @@
 # 樹梅派環境設定
+
+## 消除開機彩屏
+```Bash
+sudo nano /boot/config.txt 
+```
+- 在config.txt中添加一行disable_splash=1，字面上的意思就是取消啟動界面
+
+
 ## 隱藏taskbar
 
 1. 用終端機進到/etc/xdg/lxsession/LXDE-pi目錄
