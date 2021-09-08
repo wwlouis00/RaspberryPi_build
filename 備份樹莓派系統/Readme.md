@@ -14,3 +14,8 @@ cd usbboot
 ```sh
 sudo apt install libusb-1.0-0-dev
 ```
+4. 使用make構建並安裝該usbboot工具
+```sh
+make
+``` 
+5. 
