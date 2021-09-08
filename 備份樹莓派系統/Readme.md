@@ -28,3 +28,20 @@ sudo ./rpiboot
 ```sh
 lsblk
 ```
+## 開始備份系統
+1. 在你想存放的img檔案的目錄底下開啟終端機，在終端機輸入dd指令
+```sh
+sudo dd if=raspiberry.img of=/dev/sdX bs=1M
+```
+* `dd` 
+備份與回復整顆硬碟的資料。
+備份與回復原始設備檔案，例如 MBR（master boot record）。
+轉換資料格式，例如 ASCII 轉換為 EBCDIC，大小寫轉換等。
+建立固定大小的檔案。
+* `-v` enables more verbose output
+* `-r` will attempt to repair the filesystem using additional options if the normal repair fails
+* `-z` will compress the image after shrinking using gzip. `.gz` extension will be added to the filename.
+* `-Z` will compress the image after shrinking using xz. `.xz` extension will be added to the filename.
+* `-a` will use option -f9 for pigz and option -T0 for xz and compress in parallel.
+* `-d` will create a logfile `pishrink.log` which may help for problem analysis.
+
