@@ -18,4 +18,7 @@ sudo apt install libusb-1.0-0-dev
 ```sh
 make
 ``` 
-5. 
+5. 運行該usbboot工具，等待樹鰻派連接
+```sh
+sudo ./rpiboot
+``` 
