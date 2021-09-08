@@ -38,10 +38,8 @@ sudo dd if=raspiberry.img of=/dev/sdX bs=1M
 備份與回復原始設備檔案，例如 MBR（master boot record）。
 轉換資料格式，例如 ASCII 轉換為 EBCDIC，大小寫轉換等。
 建立固定大小的檔案。
-* `-v` enables more verbose output
-* `-r` will attempt to repair the filesystem using additional options if the normal repair fails
+* `if` 指定輸入檔案名稱
+* `of` 指定輸出檔案名稱
 * `-z` will compress the image after shrinking using gzip. `.gz` extension will be added to the filename.
-* `-Z` will compress the image after shrinking using xz. `.xz` extension will be added to the filename.
-* `-a` will use option -f9 for pigz and option -T0 for xz and compress in parallel.
-* `-d` will create a logfile `pishrink.log` which may help for problem analysis.
+
 
