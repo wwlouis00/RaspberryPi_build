@@ -40,6 +40,5 @@ sudo dd if=raspiberry.img of=/dev/sdX bs=1M
 建立固定大小的檔案。
 * `if` 指定輸入檔案名稱
 * `of` 指定輸出檔案名稱
-* `-z` will compress the image after shrinking using gzip. `.gz` extension will be added to the filename.
-
+- 若以管理者權限執行 dd 時，請再三確認您所執行的指令內容是否正確，執行錯誤的指令可能導致整個系統與資料的損毀！
 
