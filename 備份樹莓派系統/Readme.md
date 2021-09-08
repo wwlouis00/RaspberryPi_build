@@ -13,7 +13,7 @@ cd usbboot
 3. 必須安裝libusb-1.0-0-dev
 ```sh
 sudo apt install libusb-1.0-0-dev
-```
+```  
 4. 使用make構建並安裝該usbboot工具
 ```sh
 make
@@ -22,3 +22,9 @@ make
 ```sh
 sudo ./rpiboot
 ``` 
+- 現在將樹莓派跟電腦或筆電連接上，在Linux系統上需要同意權限或接受裝置，終端機就會開始跑相關運作
+
+6. 使用lsblk查看樹梅派裝置連接，根據裝入的樹梅派容量大小就可以知道/dev/xxx多少了
+```sh
+lsblk
+```
