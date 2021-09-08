@@ -29,20 +29,20 @@
 ```
 5. 開機後更新軟體
 ```sh
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo reboot
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
 ```
 6. 試練習下列指令，並觀察結果
 ```sh
-    ls
-    ls -l
-    ls -al
-    pwd
-    mkdir source
-    cd /etc/network
-    cat interfaces
-    rm -rf source
+ls
+ls -l
+ls -al
+pwd
+mkdir source
+cd /etc/network
+cat interfaces
+rm -rf source
 ```
 ## 中文輸入
 1.  開機後更新軟體
