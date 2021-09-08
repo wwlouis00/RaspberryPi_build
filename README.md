@@ -4,9 +4,9 @@
 
 - 開機後登入，並進入視窗環境
 1. 首先開啟LXTerminal，輸入下列指令進行系統初始設定
- ```sh
-    sudo raspi-config
- ```
+```sh
+sudo raspi-config
+```
 - 選取擴充檔案系統(Expand Filesystem) 並Enter確認，擴充Micro SD卡可使用的容量
 - 變更使用者密碼(Change User Password)
 ```sh
