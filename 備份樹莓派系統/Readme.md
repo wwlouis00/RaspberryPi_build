@@ -31,7 +31,7 @@ lsblk
 ## 開始備份系統
 1. 在你想存放的img檔案的目錄底下開啟終端機，在終端機輸入dd指令
 ```sh
-sudo dd if=raspiberry.img of=/dev/sdX bs=1M
+sudo dd of=raspiberry.img if=/dev/sdX bs=1M
 ```
 * `dd` 
 備份與回復整顆硬碟的資料。
