@@ -19,6 +19,13 @@
 [請點此](https://www.balena.io/etcher/)
 
 ### Rpiboot驅動安裝
+1. 打開剛剛下安裝的預設路徑:C:\Program Files (x86)\Raspberry Pi
+2. 並以系統管理員執行rpiboot
+3. 等待終端機執行，這時請將電路板slave port插入
+4. 執行完後會自動消失
+
+
+
 
 
 
