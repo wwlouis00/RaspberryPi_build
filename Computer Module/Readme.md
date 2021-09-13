@@ -16,7 +16,7 @@
 
 ### 下載balenaEtcher
 1. 至官網下載balenaEtcher安裝檔
-(請點此)[https://www.balena.io/etcher/]
+[請點此](https://www.balena.io/etcher/)
 
 
 
