@@ -22,7 +22,28 @@
 1. 打開剛剛下安裝的預設路徑:C:\Program Files (x86)\Raspberry Pi
 2. 並以系統管理員執行rpiboot
 3. 等待終端機執行，這時請將電路板slave port插入
-4. 執行完後會自動消失
+4. 會跑出連接到電路板的狀況
+
+### 使用balenaEtcher進行img燒入
+1. 打開balenaEthcer
+2. Flash from file選擇要燒的img
+3. 點Select target，選擇Compute Module
+4. Flash開始燒入，等待燒錄完成
+
+### CM3開機
+1. 關閉樹梅派電源線
+2. 拔掉MicroUSB連接線
+3. 使用有HDMI孔的螢幕接樹梅派的HDMI或是軟排線接小型觸控螢幕
+4. 按下樹梅派電源按鈕上電開機
+5. 確認開機過程中有畫面
+6. 確認功能正常後即可關機，並將CM3拔掉
+
+
+
+
+
+
+
 
 
 
