@@ -15,9 +15,10 @@
 4. 連接完後按下電源線按鈕，POWER旁邊會亮燈
 
 ### 下載balenaEtcher
-1. 至官網下載balenaEtcher安裝檔
+- 至官網下載balenaEtcher安裝檔
 [請點此](https://www.balena.io/etcher/)
 
+### Rpiboot驅動安裝
 
 
 
