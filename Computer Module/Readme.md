@@ -14,6 +14,9 @@
 3. MicroUSB連接線分別插入SLAVE跟電腦或筆電
 4. 連接完後按下電源線按鈕，POWER旁邊會亮燈
 
+### 下載balenaEtcher
+1. 至官網下載balenaEtcher安裝檔
+[https://www.balena.io/etcher/]
 
 
 
