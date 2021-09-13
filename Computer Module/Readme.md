@@ -2,6 +2,12 @@
 ## 燒入方法
 ### 準備零件材料
 1. Compute Module PoE 
-![image](https://user-images.githubusercontent.com/64067917/133052378-4ad133c7-66d3-4be3-ad4a-dc2df65d4459.png)
-Compute Module PoE 
-![image](https://user-images.githubusercontent.com/64067917/133052379-ed63b2bf-393a-408c-9e76-5a86e223fd36.png)
+2. Raspberry PI Compute Module 3+(CM3)
+3. 樹莓派 3 Raspberry Pi 3 B、B+適用 MicroUSB 電源線 5V 3A 樹莓派電源線
+4. MicroUSB連接線
+5. HDMI螢幕接線
+6. 有HDMI孔的螢幕
+
+
+
+
