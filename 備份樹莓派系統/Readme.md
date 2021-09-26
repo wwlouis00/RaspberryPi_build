@@ -43,8 +43,7 @@ sudo dd of=raspiberry.img if=/dev/sdX bs=1M
 - 若以管理者權限執行 dd 時，請再三確認您所執行的指令內容是否正確，執行錯誤的指令可能導致整個系統與資料的損毀！
 
 ## 壓縮Img檔案
-
-## Installation ##
+### 安裝
 ```bash
 wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
 chmod +x pishrink.sh
