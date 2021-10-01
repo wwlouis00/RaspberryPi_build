@@ -12,3 +12,8 @@ sudo apt-get install python3.7
 sudo ln -s /usr/bin/python3.7 /usr/bin/python
 sudo ln -s /usr/bin/pip3 /usr/bin/pip
 sudo rpi-update
+
+sudo apt-get install php
+sudo apt-get install vim
+sudo apt-get install opencv-python
+sudo apt-get autoremove
