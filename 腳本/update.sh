@@ -17,3 +17,7 @@ sudo apt-get install php
 sudo apt-get install vim
 sudo apt-get install opencv-python
 sudo apt-get autoremove
+
+# Install Picamera
+sudo apt-get install python-picamera python3-picamera
+
