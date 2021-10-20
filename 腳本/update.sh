@@ -17,6 +17,22 @@ sudo apt-get install php
 sudo apt-get install vim
 sudo apt-get install opencv-python
 sudo apt-get autoremove
+# Install QT5
+sudo apt update
+sudo apt install build-essential
+mkdir ~/raspi
+cd ~/raspi
+git clone https://github.com/raspberrypi/tools
+mkdir sysroot sysroot/usr
+rsync -avz pi@rpi_ip_address:/lib sysroot
+rsync -avz pi@rpi_ip_address:/usr/include sysroot/usr
+rsync -avz pi@rpi_ip_addressi:/usr/lib sysroot/usr
+wget https://raw.githubusercontent.com/riscv/riscv-poky/master/scripts/sysroot-relativelinks.py
+chmod +x sysroot-relativelinks.py
+./sysroot-relativelinks.py sysroot
+git clone git://code.qt.io/qt/qtbase.git -b 5.12.6
+cd qtbase
+
 
 # Install Picamera
 sudo apt-get install python-picamera python3-picamera
