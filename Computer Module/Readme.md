@@ -1,4 +1,4 @@
-# Computer Module
+# Computer Module 3B+
 ## 燒入方法
 ### 準備零件材料
 1. Compute Module PoE 
